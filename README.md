@@ -1,7 +1,11 @@
-# Example Package
+# Example Setuptools A+B Package
 
-This is a simple example package. You can use
+This is a simple example package for publishing on PyPl with setuptools. You can use
 [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/) to write your content.
+
+Links:
+https://test.pypi.org/project/setuptools-test-dmpyatin/
+https://packaging.python.org/tutorials/packaging-projects/
 
 Windows:
  * Build package: `py -m build`

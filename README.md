@@ -1,5 +1,5 @@
 # Example Setuptools A+B Package
-[![Demo workflow](https://github.com/dmpyatin/setuptools_test/actions/workflows/demo_workflow.yml/badge.svg)](https://github.com/dmpyatin/setuptools_test/actions/workflows/demo_workflow.yml)
+[![Python package](https://github.com/dmpyatin/setuptools_test/actions/workflows/workflow.yml/badge.svg)](https://github.com/dmpyatin/setuptools_test/actions/workflows/workflow.yml)
 
 This is a simple example package for publishing on PyPl with setuptools. You can use
 [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/) to write your content.

@@ -34,22 +34,3 @@ jobs:
       run: |
         pip install flake8
         flake8 .
-
-    upload_all:
-      name: Upload if release
-      needs: [build]
-      runs-on: ubuntu-latest
-      if: github.event_name == 'release' && github.event.action == 'published'
-
-      steps:
-      - uses: actions/setup-python@v2
-
-      - uses: actions/download-artifact@v2
-        with:
-          name: artifact
-          path: dist
-
-      - uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          user: __token__
-          password: ${{ secrets.TEST_PYPI_API_TOKEN }}

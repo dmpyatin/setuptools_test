@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md","r", encoding="utf-8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"":"src"},
+    package_dir={"": "src"},
     py_modules=["setuptools_test_dmpyatin"],
     python_requires=">=3.6"
 )

@@ -13,11 +13,11 @@ on:
 
 jobs:
   test:
-    name: Test
     runs-on: ubuntu-latest
       strategy:
         matrix:
           python-version: [2.7, 3.5, 3.6, 3.7, 3.8]
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -39,8 +39,9 @@ jobs:
 
   build:
     name: Build
-     needs: [test]
+    needs: [test]
     runs-on: ubuntu-latest
+    
     steps:
     - uses: actions/checkout@v2
     - name: Build SDist

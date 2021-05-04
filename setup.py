@@ -6,14 +6,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="setuptools_test_dmpyatin",
     version="0.0.4",
-    author="dmpyatin",
+    author="Dmitry Pyatin",
     author_email="dmpyatin@gmail.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/dmpyatin/setuptools_test",
     project_urls={
-        "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
+        "Bug Tracker": "https://github.com/dmpyatin/setuptools_test/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",

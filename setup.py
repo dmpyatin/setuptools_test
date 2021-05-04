@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="setuptools_test_dmpyatin",
-    version="0.0.3",
+    version="0.0.4",
     author="dmpyatin",
     author_email="dmpyatin@gmail.com",
     description="A small example package",
@@ -22,5 +22,5 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     py_modules=["setuptools_test_dmpyatin"],
-    python_requires="=2.7, >=3.5"
+    python_requires=">=3.5"
 )

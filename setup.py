@@ -22,5 +22,5 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     py_modules=["setuptools_test_dmpyatin"],
-    python_requires=">=3.6"
+    python_requires="=2.7, >=3.5"
 )
